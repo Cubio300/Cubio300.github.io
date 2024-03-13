@@ -1,7 +1,7 @@
 /*BEGIN Xbox One Controller Styling*/
 body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .controller.xbox {
-    background: url(https://imgur.com/6Ve1dWu.png);
+    background: url(base-red.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -13,7 +13,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .xbox.disconnected {
-    background: url(xbox-assets/disconnected.svg);
+    background: url(disconnected.png);
 }
 
 .xbox.disconnected div {
@@ -30,7 +30,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(xbox-assets/trigger.svg);
+    background: url(trigger.png);
     opacity: 0;
 }
 
@@ -47,7 +47,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(xbox-assets/bumper.svg);
+    background: url(bumper.png);
     opacity: 0;
 }
 
@@ -75,7 +75,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .xbox .quadrant {
     position: absolute;
-    background: url(xbox-assets/quadrant.svg);
+    background: url(quadrant.png);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -112,7 +112,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .xbox .back, .xbox .start {
-    background: url(https://imgur.com/jTBY6GO.png);
+    background: url(start-select.png);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -141,7 +141,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .xbox .button {
     position: absolute;
-    background: url(xbox-assets/abxy.svg);
+    background: url(abxy.png);
     width: 48px;
     height: 48px;
 }
@@ -186,7 +186,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 
 .xbox .stick {
     position: absolute;
-    background: url(https://imgur.com/zT9XiQ7.png);
+    background: url(sticks-red.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -215,7 +215,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .xbox .face {
-    background: url(xbox-assets/dpad.svg);
+    background: url(dpad.png);
     position: absolute;
     opacity: 0;
 }
@@ -248,7 +248,7 @@ body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
 }
 
 .xbox .meta.pressed {
-    background: url(https://imgur.com/IVWRzAk.png) no-repeat center;
+    background: url(Cube_Meta.png) no-repeat center;
 
 }
 
